@@ -9,6 +9,7 @@ the more similar the strings are. This is a very
 common problem in the application of Dynamic Programming.
 */
 
+// Comentário in
 const levenshteinDistance = (a, b) => {
   // Declaring array 'D' with rows = len(a) + 1 and columns = len(b) + 1:
   const distanceMatrix = Array(b.length + 1)
